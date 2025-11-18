@@ -1,7 +1,29 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Artjom Põldsaar PHP Tööd</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
 <?php
-echo "<h1>";
-echo "Tere hommikust!";
-echo "</h1>";
+// päis
+include('header.php');
+?>
+<?php
+// navigeerimismenüü
+include('nav.php');
+?>
 
-$tekst = "TARpv24 õpilane";
-echo $tekst;
+<main>
+  <section>
+
+  </section>
+</main>
+
+<?php
+// jalus
+include('footer.php');
+?>
+</body>
+</html>

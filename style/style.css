@@ -1,0 +1,49 @@
+header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    border: 1px solid cadetblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid cadetblue;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+nav ul li a:hover {
+    background-color: #555555;
+    color: white;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
