@@ -36,12 +36,15 @@ nav ul {
     padding: 0;
     width: 130px;
     background-color: #f1f1f1;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    position: fixed;
+    overflow: visible;
 }
 
-nav ul li {
+nav > ul {
+    height: 100%; /* Full height */
+}
+
+nav > ul li {
     text-align: center;
     border-bottom: 1px solid cadetblue;
 }
@@ -53,10 +56,27 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Change the link and background color on hover */
-nav ul li a:hover:not(.active) {
-    background-color: #555555;
-    color: white;
+nav .dropdown {
+    position: relative;
+}
+
+nav .dropdown ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: cadetblue;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+nav .dropdown ul li {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+nav .dropdown:hover ul, .dropdown ul:hover {
+    visibility: visible;
+    opacity: 1;
 }
 
 .active {
