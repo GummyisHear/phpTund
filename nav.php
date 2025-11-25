@@ -7,6 +7,7 @@
             <ul class="dropdown-content">
                 <li><a href="?link=ajaFunktsioonid.php">Ajafunktsioonid</a></li>
                 <li><a href="?link=matemFunktsioonid.php">Matemaatika Funktsioonid</a></li>
+                <li><a href="?link=failiFunktsioonid.php">Tekstfaili Funktsioonid</a></li>
             </ul>
         </li>
         <li><strong><a href="?link=muusikaKusitlus.php">JS: Muusika Küsitlus</a></strong></li>
