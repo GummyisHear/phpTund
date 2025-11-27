@@ -9,11 +9,12 @@ body, html {
 body {
     display: flex;
     flex-direction: column;
+    font-family: Verdana, sans-serif;
 }
 
 main {
     flex: 1;
-    margin-left: 130px; /* same as nav width */
+    margin-left: 150px; /* same as nav width */
     padding: 20px;
 }
 
@@ -34,7 +35,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 130px;
+    width: 150px;
     background-color: #f1f1f1;
     position: fixed;
     overflow: visible;
@@ -168,4 +169,39 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+h2 {
+    color: cadetblue;
+    border-bottom: 2px cadetblue dotted;
+    padding: 10px;
+    font-weight: bold;
+}
+.quote {
+    border-left: 2px cadetblue solid;
+    padding-left: 10px;
+    margin: 10px;
+}
+pre {
+    border-left: limegreen 3px solid;
+    background-color: black;
+    color: limegreen;
+    padding: 10px;
+}
+.spaced-list li {
+    margin-top: 15px;
+}
+h3 {
+    color: cadetblue;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.pretty-img {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 0;
+    margin: 0;
+    height: 500px;
+}
+.pretty-img img {
+    height: 500px;
 }

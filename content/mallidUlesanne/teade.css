@@ -1,0 +1,17 @@
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.announcement {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: lightgoldenrodyellow;
+}
+.footer-info {
+    text-align: right;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 50px;
+}
